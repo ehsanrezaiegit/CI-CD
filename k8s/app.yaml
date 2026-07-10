@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        image: YOUR_DOCKERHUB_USERNAME/gitops-fastapi:latest
+        image: erzgang/gitops-fastapi:latest
         ports:
         - containerPort: 8000
 ---
