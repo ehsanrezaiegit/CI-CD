@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        # یوزرنیم واقعی داکر هابت را به جای YOUR_DOCKERHUB_USERNAME بگذار
-        image: erzgang/gitops-fastapi:latest
+        image: YOUR_DOCKERHUB_USERNAME/gitops-fastapi:latest
         ports:
         - containerPort: 8000
 ---
